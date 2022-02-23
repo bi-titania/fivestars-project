@@ -1,6 +1,29 @@
 .hero {
+  padding-top: 130px;
   height: 436px;
   background-color: var(--back-color);
+  background-image: url(../images/hero/icecream-480@1x.png), url(../images/hero/elipse-480@1x.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 30px, top 15px right 0px;
+}
+.hero__wrap {
+  width: 220px;
+  margin-left: 10px;
+}
+.hero__title {
+  // margin-top: 130px;
+  font-family: Titan One;
+  font-size: 26px;
+  line-height: calc(30 / 26);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hero__title--accent {
+  font-family: Titan One;
+  font-size: 48px;
+  line-height: 96.5%;
+  color: var(--accent-color);
 }
 .hero__item {
   display: none;
@@ -13,4 +36,28 @@
   @media screen and (min-width: 768px) {
     display: flex;
   }
+}
+.hero__btn {
+  height: 24px;
+  font-size: 8px;
+  line-height: calc(10 / 8);
+  align-items: center;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 8px;
+  line-height: 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  // outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--main-color);
+  border-width: 0;
+  // border-color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.hero__btn--inv {
+  background-color: var(--main-color);
+  color: var(--accent-color);
 }

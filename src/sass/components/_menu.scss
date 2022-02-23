@@ -1,0 +1,17 @@
+.menu__open-btn {
+  position: absolute;
+  right: 10px;
+  top: 52%;
+  transform: translateY(-50%);
+  //   margin-left: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--title-color);
+  border: none;
+  outline: none;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.menu__open-icon {
+}
