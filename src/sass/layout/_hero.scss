@@ -1,3 +1,16 @@
 .hero {
+  height: 557px;
   background-color: var(--back-color);
+}
+.hero__item {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+.hero__numbers {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }

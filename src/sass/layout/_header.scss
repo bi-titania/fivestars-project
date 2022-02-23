@@ -1,3 +1,26 @@
 .header {
   background-color: var(--back-color);
 }
+.site-nav__list {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+.header__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  height: 108px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(21 / 16);
+}
+.header__logo {
+  font-family: Titan One;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
