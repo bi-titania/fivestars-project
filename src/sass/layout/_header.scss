@@ -12,15 +12,39 @@
   display: flex;
   align-items: center;
   // justify-content: center;
-  height: 108px;
+  height: 66px;
   font-weight: bold;
   font-size: 16px;
   line-height: calc(21 / 16);
 }
 .header__logo {
+  align-items: center;
   font-family: Titan One;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
   color: var(--accent-color);
+  margin-left: 65px;
+}
+.header__logo-item {
+  left: 20px;
+  top: 12px;
+  padding-top: 2px;
+  height: 43px;
+  width: 46px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+  background-color: var(--accent-color);
+}
+.header__logo-icon {
+  width: 42px;
+  height: 38px;
+  fill: var(--main-color);
+}
+.header__btn {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
